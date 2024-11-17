@@ -23,7 +23,7 @@ body {
 }
 
 #page1>nav {
-    position: relative;
+    position: fixed;
     height: 18vh;
     width: 100%;
     padding: 2vh 7.5vw;
@@ -168,6 +168,291 @@ body {
     position: absolute;
     top: 85%;
     left: 10%;
-    max-width: 80vw;
-    
+    max-width: 80vw;   
+}
+#page1-last-btn{
+    position: absolute;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 15px 30px;
+    border-radius: 40px;
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    font-size: 1.3em;
+    font-weight: 500;   
+}
+#page1-last-btn:hover{
+    color: white;
+    background-color: black;
+    transition: 1s;
+}
+
+/* ############# Page2 starts ############ */
+
+#page2{
+    position: relative;
+    height: 300vh;
+    width: 100%;
+    background-color: #F5F5F7;
+}
+ 
+#page2 #title{
+    margin-top: 15%;
+    padding-top: 100px;
+    text-align: center;
+    line-height: 78px;
+
+}
+#page2 #title h6{
+    font-size: 2em;
+    font-weight: 600;
+}
+#page2 #title h2{
+    font-size: 4.7em;
+
+}
+
+#page2 #video{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#page2 #video video{
+    max-width: 90vw;
+    margin-top: 10%;
+}
+#page2 #explanation{
+    width: 100%;
+    display: flex;
+    padding: 13vh 10vw;
+}
+#left{
+    flex: 1;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+#right{
+    flex: 1.5;
+
+}
+#right h4{
+    color: #86868B;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+#right button{
+    margin-top: 10%;
+    color: white;
+    background-color: #FF5A00;
+    font-size: 1.3em;
+    font-weight: 500;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* ############## Page3 starts ############### */
+#page3{
+    position: relative;
+    height: 300vh;
+    width: 100%;
+    background-color: white;
+}
+#page3-title{
+    margin-top: 6%;
+    padding-top: 100px;
+    text-align: center;
+    line-height: 78px;
+
+}
+#page3-title h6{
+    font-size: 2em;
+    font-weight: 600;
+}
+#page3-title h2{
+    font-size: 4.7em;
+
+}
+
+#page3-video{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#page3-video video{
+    max-width: 90vw;
+    margin-top: 10%;
+}
+#page3-explanation{
+    width: 100%;
+    display: flex;
+    padding: 13vh 10vw;
+}
+#page3-explanation #left{
+    flex: 1;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+#page3-explanation #right{
+    flex: 1.4;
+
+}
+#right h4{
+    color: #86868B;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+#right button{
+    margin-top: 10%;
+    color: white;
+    background-color: #FF5A00;
+    font-size: 1.3em;
+    font-weight: 500;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* ###################### Page4 starts ###################### */
+#page4{
+    position: relative;
+    height: 300vh;
+    width: 100%;
+    background-color: #F5F5F7;
+}
+#page4-title{
+    margin-top: 6%;
+    padding-top: 100px;
+    text-align: center;
+    line-height: 78px;
+
+}
+#page4-title h6{
+    font-size: 2em;
+    font-weight: 600;
+}
+#page4-title h2{
+    font-size: 4.7em;
+
+}
+
+#page4-video{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#page4-video video{
+    max-width: 90vw;
+    margin-top: 10%;
+}
+#page4-explanation{
+    width: 100%;
+    display: flex;
+    padding: 13vh 10vw;
+}
+#page4-explanation #left{
+    flex: 1;
+    font-size: 1.9em;
+    font-weight: 600;
+}
+#page4-explanation #right{
+    flex: 1.4;
+
+}
+#right h4{
+    color: #86868B;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+#right button{
+    margin-top: 10%;
+    color: white;
+    background-color: #FF5A00;
+    font-size: 1.3em;
+    font-weight: 500;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* ###################### Page5 starts ###################### */
+#page5{
+    position: relative;
+    height: 300vh;
+    width: 100%;
+    background-color: white;
+}
+#page5-title{
+    margin-top: 6%;
+    padding-top: 100px;
+    text-align: center;
+    line-height: 78px;
+}
+#page5-title h6{
+    font-size: 2em;
+    font-weight: 600;
+}
+#page5-title h2{
+    font-size: 4.7em;
+
+}
+
+#page5-video{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#page5-video video{
+    max-width: 90vw;
+    margin-top: 10%;
+}
+#page5-explanation{
+    width: 100%;
+    display: flex;
+    padding: 13vh 10vw;
+}
+#page5-explanation #left{
+    flex: 1;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+#page5-explanation-right{
+    display: flex;
+    flex-direction: column;
+    flex: 1.4;
+
+}
+#page5-explanation-right h4{
+    color: #86868B;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+#page5-explanation-right  a{
+    padding-top: 20px;
+    font-size: 25px;
+    text-decoration: none;
+}
+#page5-explanation-right  a i{
+    rotate: 45deg;
+}
+#page5-explanation-right  a:hover{
+    text-decoration: underline;
+}
+
+#page5-explanation-right button{
+    margin-top: 10%;
+    color: white;
+    background-color: #FF5A00;
+    font-size: 1.3em;
+    font-weight: 500;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
 }
